@@ -37,8 +37,8 @@ const spinLabel = computed(() => {
   >
     <div class="mx-auto max-w-7xl">
       <header class="mb-8">
-        <p class="text-xs font-semibold tracking-[0.3em] text-cyan-300/90 uppercase">Project #4</p>
-        <h1 class="mt-2 text-4xl font-black text-white sm:text-5xl">Anime Roulette Machine</h1>
+        <p class="text-xs font-semibold tracking-[0.3em] text-green-300/90 uppercase">Project #4</p>
+        <h1 class="mt-2 text-4xl font-black text-cyan-400 sm:text-5xl">Anime Roulette Machine</h1>
         <p class="mt-2 max-w-3xl text-sm text-slate-300 sm:text-base">
           Spin the reel, request a random anime from Jinkan with VueUse useFech, and learnhow REST
           APIs signal rate limiting with HTTP 429.
@@ -60,7 +60,7 @@ const spinLabel = computed(() => {
               <button
                 type="button"
                 :disabled="spinDisabled"
-                class="cursor-pointer rounded-full border border-cyan-300/70 bg-cyan-400/20 px-6 py-3 text-base font-black tracking-wide text-cyan-100 hover:bg-cyan-400/30 disabled:cursor-not-allowed disabled:opacity-60"
+                class="cursor-pointer rounded-full border border-green-300/70 bg-green-400/20 px-6 py-3 text-base font-black tracking-wide text-green-100 hover:bg-green-400/30 disabled:cursor-not-allowed disabled:opacity-60"
                 @click="spin"
               >
                 {{ spinLabel }}
